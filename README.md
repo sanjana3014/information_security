@@ -5,10 +5,15 @@ This project implements a secure file transfer system in Python that utilizes RS
 **Features**
 
 **RSA Key Generation:** Generates and saves RSA public and private keys.
+
 **File Encryption:** Encrypts a file using the recipient's public key.
+
 **File Decryption:** Decrypts an encrypted file using the corresponding private key.
+
 **Hashing:** Generates a hash (e.g., SHA-256) of the original file.
+
 **Integrity Verification:** Verifies the integrity of the received file using the original hash.
+
 **User Interface:** A simple UI created with Streamlit for interacting with the system.
 
 **Requirements**
